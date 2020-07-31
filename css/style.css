@@ -100,7 +100,7 @@ body {
 
 .text-2_2 {
     font-family: myown;
-    font-size: 7em;
+    font-size: 7rem;
     font-weight: 600;
     color: white;
     margin-bottom: 200px;
@@ -266,7 +266,7 @@ body {
     text-align: center;
     margin-bottom: 20px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding: 0 0;
     justify-content: center;
     align-items: center;
