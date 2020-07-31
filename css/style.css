@@ -1,0 +1,310 @@
+
+
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+    height: 100%;
+
+}
+
+@font-face {
+    font-family: myown;
+    src: url('../css/tahu.ttf');
+     /*format:("truetype")*/
+}
+
+
+.background {
+    margin: 0;
+    background-image: url('../images/cool-background_5.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+/*.blur {
+    margin:0;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    This be the blur
+
+}
+
+
+.multiple-filters {
+  backdrop-filter: blur(20px) saturate(120%) contrast(200%);
+}
+
+*/
+.top {
+    width: 100%;
+    height: 100px;
+    background-color: #215464;
+    position: static;
+    margin: 0;
+}
+
+.flex1 {
+    margin: 0;
+    display: flex;
+}
+
+.top-1 {
+    margin: 0;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+    width: auto;
+    border-radius: 200px;
+    /*position: relative;
+    top: 25px;*/
+}
+
+.center:hover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: auto;
+    position: relative;
+    /*top: -25px;*/
+    border-radius: 30px;
+    transition: .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+
+
+.text-2_1 {
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+
+
+
+
+.text-2_2 {
+    font-family: myown;
+    font-size: 7em;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 200px;
+}
+
+.text-3 {
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 2.7em;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 100px;
+    left: 90px;
+}
+
+
+.top-4 {
+    margin: 0;
+    text-align: center;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    padding-bottom: 100px;
+    font-size: 1em;
+    font-weight: 400;
+    color: white;
+    left: 90px;
+}
+
+.top-4 h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    padding-bottom: 80px;
+}
+
+
+
+.cc1 {
+    text-align: center;
+    background-color: #f0f0f0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    width: auto;
+    height: 350px;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.cc1 p {
+    position: absolute;
+    text-align: center;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+    color: black;
+}
+
+
+.icon1 {
+    padding-top:35px;
+    text-align: center;
+    width :50%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+
+
+.tpp {
+    text-align: center;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.tpp:hover {
+    text-align: center;
+    display: block;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.txtdv {
+    font-family: 'Mulish', sans-serif;
+    display: block;
+    position: relative;
+    text-align:left;
+    padding-left: .8em;
+    height: auto;
+    color: white;
+}
+
+.txtdv h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+}
+
+.txtdv h4 {
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.txtdv p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: .01rem;
+    font-size: .8rem;
+
+    color: white;
+}
+.text-4 {
+    font-family: 'Lexend Zetta', sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 100px;
+    left: 90px;
+}
+
+
+.text-5 {
+    font-family: myown;
+    font-size: 2.5em;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    border-radius: 15px;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+
+.contact {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.con1{
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 30%;
+    height: 8rem;
+}
+
+.conpic {
+    height: 80%;
+    width: auto;
+}
+
+.conlink {
+    position: absolute;
+    text-align: center;
+    left: 50px;
+    right: 50px;
+    bottom: 5px;
+    color: white;
+}
+.textt{
+    text-align: left;
+}
+
+.textt h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.textt h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 1.7em;
+}
